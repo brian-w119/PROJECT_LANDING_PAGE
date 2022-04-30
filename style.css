@@ -1,10 +1,19 @@
 
+
+html {
+
+  display: flex;
+
+  height: 100vh;
+}
+
 .headers {
 background-color: #424585;
 display: flex;
-flex:1 1 auto;
+flex: auto;
 flex-direction: column;
 height: 400px;
+margin-bottom: 30px;
 
 
 }
@@ -47,6 +56,9 @@ margin-left:1200px;
     
 }
 
+
+
+
 a {
   color: #F9FAF8;
 
@@ -62,8 +74,113 @@ a:hover {
   
 }
 
-section {
-display: flex;  
 
+
+.image2{
+
+  border: 2px solid grey;
+  width: 800px;
+  height: 500px;
+  max-width: fit-content;
+  object-fit: contain;
+  
+}
+
+.image1{
+
+  border: 2px solid grey;
+  max-width: fit-content;
+  height: 500px;
+  object-fit: contain;
+ 
 
 }
+
+
+.image3 { 
+
+  border: 2px solid grey;
+  max-width: fit-content;
+  height: 500px;
+  object-fit: contain;
+
+}
+
+.image4 {
+
+  border: 2px solid grey;
+  max-width: fit-content;
+  height: 500px; 
+  object-fit: contain;
+}
+
+ .upper-middle{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   flex-shrink: 0 1 auto;
+         
+  }
+
+
+.el1{
+
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+.el1 > p {
+
+  color: rgb(38, 35, 85);
+  width: 400px;
+color: #030cb1;
+
+  
+}
+
+
+
+.el2{
+
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+.el2 > p {
+
+  width: 400px;
+  color: #030cb1;
+}
+
+
+.el3{
+
+  display: flex;
+  flex-direction: column;
+}
+
+.el3 > p {
+
+  
+  width: 400px;
+  color: #030cb1;
+}
+
+
+.el4{
+
+  display: flex;
+  flex-direction: column;
+}
+
+.el4 > p {
+
+  color: #030cb1;
+  width: 400px;
+}
+
+
